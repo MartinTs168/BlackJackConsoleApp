@@ -1,7 +1,7 @@
 from Cards.card import Card
 
 
-class giAce(Card):
+class Ace(Card):
 
     def __init__(self, suit):
         super().__init__(suit)
