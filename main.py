@@ -85,7 +85,7 @@ while True:
             break
 
         elif player.check_for_blackjack():
-            winnings = bet * 1.25
+            winnings = bet * 1.5
             print(player_board)
             print(f"You won ${winnings:.2f}")
             budget += winnings + bet
